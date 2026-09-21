@@ -1,0 +1,9 @@
+.navbar-brand{
+    font-family: cursive;
+    text-shadow: -1px 2px rebeccapurple;
+    font-weight: 600;
+    font-size: 30px;
+}
+.card-img, .card-img-top{
+    object-fit: cover;
+}
