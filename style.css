@@ -5,5 +5,5 @@
     font-size: 30px;
 }
 .card-img, .card-img-top{
-    object-fit: cover;
+    height: 360px;
 }
