@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+
+    <link href="httpsivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+
+<div class="container mt-5">
+
+    <h2 class="text-center mb-4">Checkout</h2>
+
+    <form>
+
+        <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Address</label>
+            <textarea class="form-control" rows="3" required></textarea>
+        </div>
+
+        <h4>
+            Total Price: $
+            <span id="checkoutTotal">0.00</span>
+        </h4>
+
+        <button type="button"
+                class="btn btn-success mt-3"
+                onclick="placeOrder()">
+            Place Order
+        </button>
+
+        <a href="cart.html" class="btn btn-secondary mt-3">
+            Back to Cart
+        </a>
+
+    </form>
+
+</div>
+
+<script src="checkout.js"></script>
+
+</body>
+</html>
